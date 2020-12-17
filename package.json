@@ -1,12 +1,13 @@
 {
-  "name": "remember_dev",
+  "name": "dev-reminder",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next export"
+    "analyze": "BUNDLE_ANALYZE=both yarn build",
+    "find:unused": "next-unused"
   },
   "dependencies": {
     "@svgr/webpack": "^5.5.0",
