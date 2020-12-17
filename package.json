@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next export"
+    "export": "next export",
+    "build:app": "nx build app --outputPath ."
   },
   "dependencies": {
     "@svgr/webpack": "^5.5.0",
