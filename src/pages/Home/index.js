@@ -1,10 +1,10 @@
 import React from 'react'
-import { Container, Text } from '../../pageComplements/Home';
+import Header from '../../components/Header';
 
 export default function Home() {
   return (
-    <Container>
-      <Text>teste</Text>
-    </Container>
+    <div>
+      <Header />
+    </div>
   )
 }
