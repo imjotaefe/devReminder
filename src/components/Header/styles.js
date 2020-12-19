@@ -3,7 +3,10 @@ import { colors } from '../../utils';
 
 export const Container = styled.div`
   background-color: ${colors.fullDark};
-  height: 100vh
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+  padding-top: 80px;
 `;
 
 export const Title = styled.p`

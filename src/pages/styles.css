@@ -1,7 +1,9 @@
 * {
   margin: 0px;
   padding: 0px;
+  outline: none;
 }
 body {
   position: relative;
+  background-color: #010101!important;
 }
