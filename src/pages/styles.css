@@ -7,3 +7,6 @@ body {
   position: relative;
   background-color: #010101!important;
 }
+p,span,h1,h2,h3,h4,h5,h6{
+  font-family: Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
