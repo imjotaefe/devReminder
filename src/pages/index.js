@@ -1,5 +1,3 @@
-import Home from "./Home";
+import Home from './Home'
 
-export default function index() {
-  return <Home />;
-}
+export default () => <Home/>;

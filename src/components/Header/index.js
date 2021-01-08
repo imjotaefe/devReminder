@@ -1,13 +1,10 @@
-import React from "react";
-import { Container, Title, Background, SubTitle } from "./styles";
+import React from 'react'
+import { Container, Title } from './styles';
 
-export default function Header({ title, subtitle }) {
+export default function Header() {
   return (
     <Container>
-      <Background>
-        <Title>{title}</Title>
-        <SubTitle>{subtitle}</SubTitle>
-      </Background>
+      <Title>DEV Reminder</Title>
     </Container>
-  );
+  )
 }
